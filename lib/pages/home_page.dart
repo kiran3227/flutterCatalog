@@ -9,14 +9,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: const Text("Catalog App"),
         centerTitle: true,
       ),
       body: Center(
         child: Text(
             'Welcome to ${day}st day of flutter catalog application by $name'),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
